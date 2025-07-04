@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 
 st.set_page_config(page_title="Hotel Booking Dashboard", layout="wide")
 
-df = pd.read_csv('../Hotel-Booking-Analysis/data/hotel_bookings_cleaned.csv')
+df = pd.read_csv('data/hotel_bookings_cleaned.csv')
 month_mapping = {
     'January': 1, 'February': 2, 'March': 3, 'April': 4,
     'May': 5, 'June': 6, 'July': 7, 'August': 8,
